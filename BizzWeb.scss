@@ -16,9 +16,15 @@ a{
 }
 
 .navbar{
-  height:60px;
+  height:80px;
 }
 
+.navbar-nav{
+  margin-right:130px ;
+}
+.nav-item{
+  margin-left: 15px;
+}
 .nav-link{
   color:#228cb3;
   font-weight: bold;
@@ -38,6 +44,8 @@ a{
   @extend .nav-link;
   color:#228cb3;
   font-size: 30px;
+  margin-left: 100px;
+  margin-right:0;
 }
 
 /*.navbar-toggler .navbar-toggler-icon{
@@ -213,7 +221,7 @@ a{
   margin:20px 20px auto 270px;
 }
 #developer-text{
-  margin:auto 370px 95px 425px ;
+  margin:auto 370px 60px 425px ;
   font-family: 'Merriweather', serif;
   font-size: 14px;
   font-weight: bold;
@@ -234,7 +242,7 @@ a{
 
 #tech-text{
   @extend #developer-text;
-  margin:0px 420px 80px 360px;
+  margin:0px 420px 60px 360px;
 }
 
 #oppa_smile{
@@ -251,7 +259,7 @@ a{
 
 #nontech-text{
   @extend #developer-text;
-  margin:130px 360px 105px 425px;
+  margin:100px 360px 105px 425px;
 }
 
 #extra{
