@@ -1,284 +1,507 @@
-body {
-  margin: 0; }
+@media screen and (min-width: 500px) {
+  body {
+    margin: 0; }
 
-a {
-  color: #0a143d; }
+  a {
+    color: #0a143d; }
 
-.navbar {
-  height: 80px; }
+  .navbar {
+    height: 80px; }
 
-.navbar-nav {
-  margin-right: 120px; }
+  .navbar-nav {
+    margin-right: 120px; }
 
-.nav-item {
-  margin-left: 15px; }
+  .nav-item {
+    margin-left: 15px; }
 
-.nav-link, .navbar-brand {
-  color: #228cb3;
-  font-weight: bold;
-  font-size: 16px;
-  font-family: "Merriweather"; }
+  .nav-link, .navbar-brand {
+    color: #0c415c;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Merriweather"; }
 
-.nav-link:hover, .navbar-brand:hover {
-  color: #25a8a4; }
+  .nav-link:hover, .navbar-brand:hover {
+    color: #25a8a4; }
 
-.navbar-trans {
-  background-color: rgba(113, 193, 217, 0.05); }
+  .navbar-trans {
+    background-color: rgba(113, 193, 217, 0.05); }
 
-.navbar-brand {
-  color: #228cb3;
-  font-size: 30px;
-  margin-left: 80px;
-  margin-right: 0; }
+  .navbar-brand {
+    color: #0c415c;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-right: 0; }
 
-.dropdown .dropdown-menu {
-  background-color: rgba(113, 193, 217, 0.3);
-  border-radius: 12px; }
+  .dropdown .dropdown-menu {
+    background-color: rgba(113, 193, 217, 0.3);
+    border-radius: 12px; }
 
-.dropdown .dropdown-menu .dropdown-item {
-  color: #228cb3;
-  font-size: 14px;
-  font-weight: bold;
-  font-family: "Merriweather"; }
+  .dropdown .dropdown-menu .dropdown-item {
+    color: #0c415c;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Merriweather"; }
 
-.dropdown .dropdown-menu .dropdown-item:hover {
-  background-color: #228cb3;
-  color: white; }
+  .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #228cb3;
+    color: white; }
 
-#ham {
-  height: 47px; }
+  #ham {
+    height: 47px; }
 
-.my-hr {
-  margin-top: 30px;
+  .my-hr {
+    margin-top: 30px;
+    text-align: center;
+    width: 50px;
+    color: darkgray;
+    border-top: dotted;
+    border-top-width: 6px; }
+
+  #main-body1 {
+    text-align: center; }
+
+  #main-body2 {
+    margin-top: 100px;
+    padding-left: 20px; }
+
+  #head {
+    background-image: url("CSS - My Site Images/landscape.jpg");
+    background-color: rgba(255, 255, 255, 0.1);
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 650px; }
+
+  #title {
+    font-family: 'Sacramento', cursive;
+    color: #107a6e;
+    font-size: 72px;
+    font-weight: bold;
+    word-spacing: 20px;
+    margin: 20px auto 0px auto; }
+
+  #sub-title {
+    color: #0a3557;
+    font-family: "Merriweather";
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    word-spacing: 3px; }
+
+  .me {
+    margin-top: 50px;
+    height: 180px; }
+
+  .greeting {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    color: #25a8a4; }
+
+  .intro {
+    margin: 20px 150px 20px;
+    font-size: 15px;
+    font-family: 'Merriweather', serif;
+    line-height: 30px;
+    font-weight: bold; }
+
+  #skill, #end-head {
+    color: #25a8a4;
+    font-size: 40px;
+    font-family: roboto, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 100px; }
+
+  #developer {
+    height: 135px;
+    float: left;
+    margin: 20px 20px auto 270px; }
+
+  #developer-text, #tech-text, #extra-text, #nontech-text {
+    margin: auto 370px 60px 425px;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 28px; }
+
+  #oppa_red, #oppa_red2 {
+    height: 170px;
+    float: right;
+    margin: -170px 160px auto auto; }
+
+  #tech {
+    height: 140px;
+    margin: auto 280px auto auto;
+    float: right; }
+
+#tech-span{
+  margin-left:320px;
+}
+
+  #tech-text, #extra-text {
+    margin: 0px 420px 60px 360px; }
+
+  #oppa_smile {
+    height: 175px;
+    float: left;
+    margin: -120px auto auto 100px; }
+
+  #nontech {
+    height: 170px;
+    float: left;
+    margin: 20px auto auto -38px; }
+
+  #nontech-text {
+    margin: 100px 360px 105px 425px; }
+
+  #extra {
+    height: 135px;
+    float: right;
+    margin: 20px 275px auto 8px; }
+
+  #extra-text {
+    margin-right: 400; }
+
+  #extra-span{
+    margin-left:295px;
+  }
+
+  #oppa_red2 {
+    margin: -170px 155px auto auto; }
+
+  #end-head {
+    font-weight: bold; }
+
+  #end-para {
+    color: #25a8a4;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px; }
+
+  #social {
+    text-align: center;
+    margin-top: 50px; }
+
+  #linkedin {
+    height: 60px; }
+
+  #gmail, #git {
+    height: 60px;
+    margin-left: 30px; }
+
+  #footer {
+    margin-top: 60px;
+    background-color: #25a8a4;
+    text-align: center;
+    height: 110px;
+    padding-top: 30px;
+    padding-bottom: 0px; }
+
+  #email {
+    text-decoration: underline;
+    color: #04544d;
+    font-family: 'Merriweather', serif;
+    font-size: 17px; }
+
+  #copyright {
+    font-family: "Merriweather", serif;
+    font-size: 13px;
+    color: white;
+    margin-bottom: -10px; } }
+
+
+/*-----------mobile section------------*/
+
+@media screen and (max-width:499px){
+  body {
+    margin: 0; }
+
+  a {
+    color: #0a143d; }
+
+  .navbar {
+    height: 80px; }
+
+  .navbar-nav {
+    margin-right: 120px; }
+
+  .nav-item {
+    margin-left: 15px; }
+
+  .nav-link, .navbar-brand {
+    color: #0c415c;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Merriweather"; }
+
+  .nav-link:hover, .navbar-brand:hover {
+    color: #25a8a4; }
+
+  .navbar-trans {
+    background-color: rgba(113, 193, 217, 0.05); }
+
+  .navbar-brand {
+    color: #0c415c;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 0;}
+
+  .dropdown .dropdown-menu {
+    background-color: rgba(113, 193, 217, 0.3);
+    border-radius: 12px; }
+
+  .dropdown .dropdown-menu .dropdown-item {
+    color: #0c415c;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Merriweather"; }
+
+  .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #228cb3;
+    color: white; }
+
+  #ham {
+    height: 47px; }
+
+  .my-hr {
+    margin-top: 30px;
+    text-align: center;
+    width: 50px;
+    color: darkgray;
+    border-top: dotted;
+    border-top-width: 6px; }
+
+  #main-body1 {
+    text-align: center; }
+
+  #main-body2 {
+    margin-top: 100px;
+    text-align: center;}
+
+  #head {
+    background-image: url("CSS - My Site Images/landscape-small.jpg");
+    background-color: rgba(255, 255, 255, 0.1);
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 650px; }
+
+  #title {
+    font-family: 'Sacramento', cursive;
+    color: #107a6e;
+    font-size: 72px;
+    font-weight: bold;
+    word-spacing: 20px;
+    margin: 20px auto 0px auto; }
+
+  #sub-title {
+    color: #0a3557;
+    font-family: "Merriweather";
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    word-spacing: 3px; }
+
+  .me {
+    margin-top: 50px;
+    height: 180px; }
+
+  .greeting {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    color: #25a8a4; }
+
+  .intro {
+    text-align: justify;
+    margin: 20px 25px 20px;
+    font-size: 12px;
+    font-family: 'Merriweather', serif;
+    line-height: 25px;
+    font-weight: bold; }
+
+  #skill, #end-head {
+    color: #25a8a4;
+    font-size: 40px;
+    font-family: roboto, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    line-height: 60px;}
+
+  #developer {
+    height: 135px;
+    margin-top: 0px; }
+
+  #developer-text, #tech-text, #extra-text, #nontech-text {
+    margin: 20px 25px 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 21px;
+    text-align: center;}
+
+  #oppa_red, #oppa_red2 {
+    height: 170px;
+    float: right;
+    margin: -170px 160px auto auto;
+    display:none;}
+
+  #tech {
+    height: 140px;
+    margin-top: 60px;
+     }
+
+  #tech-text, #extra-text {
+    margin: 40px 25px 20px;
+    text-align: center;}
+
+  #oppa_smile {
+    height: 180px;
+    float: left;
+    margin: -120px auto auto 100px;
+    display:none;}
+
+  #nontech {
+    height: 160px;
+    margin-top: 60px; }
+
+  #nontech-text {
+    text-align: center;
+    margin: 40px 25px 20px; }
+
+  #extra {
+    height: 125px;
+    margin-top: 60px; }
+
+  #extra-text {
+     }
+
+  #oppa_red2 {
+    margin: -170px 155px auto auto; }
+
+  #end-head {
+    font-weight: bold; }
+
+  #end-para {
+    color: #25a8a4;
+    text-align: center;
+    margin:auto 20px auto;
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 24px; }
+
+  #social {
+    text-align: center;
+    margin-top: 50px; }
+
+  #linkedin {
+    height: 40px; }
+
+  #gmail, #git {
+    height: 40px;
+    margin-left: 30px; }
+
+  #footer {
+    margin-top: 60px;
+    background-color: #25a8a4;
+    text-align: center;
+    height: 110px;
+    padding-top: 30px;
+    padding-bottom: 0px; }
+
+  #email {
+    text-decoration: underline;
+    color: #04544d;
+    font-family: 'Merriweather', serif;
+    font-size: 12px; }
+
+  #copyright {
+    font-family: "Merriweather", serif;
+    font-size: 8px;
+    color: white;
+    margin-bottom: -10px; }
+
+}
+/*#facts{
   text-align: center;
-  width: 50px;
-  color: darkgray;
-  border-top: dotted;
-  border-top-width: 6px; }
-
-#main-body1 {
-  text-align: center; }
-
-#main-body2 {
-  background-color: #8ae3da;
-  margin: 100px 200px auto 200px;
-  text-align: center;
-  border: solid;
-  border-color: #8ae3da;
-  border-radius: 40px; }
-
-#main-body3 {
   margin-top: 100px;
-  padding-left: 20px; }
-
-#head {
-  background-image: url("CSS - My Site Images/landscape.jpg");
-  background-color: rgba(255, 255, 255, 0.1);
-  background-blend-mode: lighten;
-  background-size: cover;
+}
+#factbox{
+  display:inline-block;
   text-align: center;
-  height: 650px; }
-
-#title {
-  font-family: 'Sacramento', cursive;
-  color: #25a8a4;
-  font-size: 72px;
-  font-weight: bold;
-  word-spacing: 20px;
-  margin: 70px auto 0px auto; }
-
-#sub-title {
-  color: #0F514F;
-  font-family: "Merriweather";
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 5px;
-  word-spacing: 3px; }
-
-.mountain {
-  margin-top: 100px;
-  height: 400px;
-  width: 600px;
-  margin-bottom: 10px; }
-
-.me {
-  margin-top: 50px;
-  height: 180px; }
-
-.greeting {
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-family: 'Lobster', cursive;
-  font-size: 36px;
-  color: #25a8a4; }
-
-.intro {
-  margin: 20px 150px 20px;
-  font-size: 15px;
-  font-family: 'Merriweather', serif;
-  line-height: 30px;
-  font-weight: bold; }
-
-#facts {
-  text-align: center;
-  margin-top: 100px; }
-
-#factbox {
-  display: inline-block;
-  text-align: center;
-  padding: 20px;
-  width: 630px;
-  border: solid;
+  padding:20px;
+  width:630px;
+  border:solid;
   border-radius: 25px;
-  border-color: gray;
+  border-color:gray;
   background-color: #85edad;
-  box-shadow: 15px 20px 8px 2px #888888; }
+  box-shadow: 15px 20px 8px 2px #888888;
+}
 
-#oppa_facts {
-  float: left;
+#oppa_facts{
+  float:left;
   height: 180px;
-  margin: -20px auto auto 20px; }
+  margin: -20px auto auto 20px;
+}
 
-#oppa_facts_text {
+#oppa_facts_text{
   font-family: roboto, sans-serif;
   font-size: 40px;
   font-weight: bold;
-  color: #000;
+  color:#000;
   position: relative;
-  right: 70px;
-  margin: 50px -40px auto 100px; }
+  right:70px;
+  margin: 50px -40px auto 100px;
+}
 
-#location-logo {
-  height: 90px;
-  float: left;
-  margin: 100px auto auto -190px; }
+#location-logo{
+  height:90px;
+  float:left;
+  margin: 100px auto auto -190px;
+}
 
-#location-text {
-  font-family: "Merriweather";
+#location-text{
+  font-family: $wrap-text;
   font-size: 28px;
-  margin: 130px auto auto 100px; }
+  margin: 130px auto auto 100px;
+}
 
-#xav-logo {
-  float: left;
-  height: 120px;
-  margin: 50px 15px auto 20px; }
+#xav-logo{
+  float:left;
+  height:120px;
+  margin:50px 15px auto 20px;
+}
 
-#xav-text {
-  font-family: "Merriweather";
+#xav-text{
+  font-family: $wrap-text;
   font-size: 28px;
-  margin: 110px 20px auto auto; }
+  margin:110px 20px auto auto;
+}
 
-#smit-logo {
-  float: left;
-  height: 137px;
-  margin: 110px auto auto -125px; }
+#smit-logo{
+  float:left;
+  height:137px;
+  margin:110px auto auto -125px;
+}
 
-#smit-text {
-  font-family: "Merriweather";
+#smit-text{
+  font-family: $wrap-text;
   font-size: 27px;
   position: relative;
-  right: 20px;
-  margin: 160px -50px 45px auto;
-  line-height: 50px; }
-
-#skill, #end-head {
-  color: #25a8a4;
-  font-size: 40px;
-  font-family: roboto, sans-serif;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 0px;
-  margin-top: 100px; }
-
-#developer {
-  height: 135px;
-  float: left;
-  margin: 20px 20px auto 270px; }
-
-#developer-text, #tech-text, #extra-text, #nontech-text {
-  margin: auto 370px 60px 425px;
-  font-family: 'Merriweather', serif;
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 28px; }
-
-#oppa_red, #oppa_red2 {
-  height: 170px;
-  float: right;
-  margin: -170px 160px auto auto; }
-
-#tech {
-  height: 140px;
-  margin: auto 280px auto auto;
-  float: right; }
-
-#tech-text, #extra-text {
-  margin: 0px 420px 60px 360px; }
-
-#oppa_smile {
-  height: 175px;
-  float: left;
-  margin: -120px auto auto 100px; }
-
-#nontech {
-  height: 170px;
-  float: left;
-  margin: 20px auto auto -38px; }
-
-#nontech-text {
-  margin: 100px 360px 105px 425px; }
-
-#extra {
-  height: 135px;
-  float: right;
-  margin: 20px 275px auto 8px; }
-
-#extra-text {
-  margin-right: 400; }
-
-#oppa_red2 {
-  margin: -170px 155px auto auto; }
-
-#end-head {
-  font-weight: bold; }
-
-#end-para {
-  color: #25a8a4;
-  text-align: center;
-  font-family: 'Merriweather', serif;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 24px; }
-
-#social {
-  text-align: center;
-  margin-top: 50px; }
-
-#linkedin {
-  height: 60px; }
-
-#gmail, #git {
-  height: 60px;
-  margin-left: 30px; }
-
-#footer {
-  margin-top: 60px;
-  background-color: #25a8a4;
-  text-align: center;
-  height: 90px;
-  padding-top: 30px;
-  padding-bottom: 0px; }
-
-#email {
-  text-decoration: underline;
-  color: #04544d;
-  font-family: 'Merriweather', serif;
-  font-size: 17px; }
-
-#copyright {
-  font-family: "Merriweather", serif;
-  font-size: 13px;
-  color: white;
-  margin-bottom: -10px; }
+  right:20px;
+  margin:160px -50px 45px auto;
+  line-height: 50px;
+}*/
 
 /*# sourceMappingURL=BizzWeb.css.map */

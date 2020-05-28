@@ -3,6 +3,8 @@ $body2-text:#04544d;
 $body2:#8ae3da;
 $wrap-text: 'Merriweather';
 
+@media screen and (min-width:500px){
+
 %body_font{
   font-family: 'Baloo 2', cursive;
 }
@@ -26,7 +28,7 @@ a{
   margin-left: 15px;
 }
 .nav-link{
-  color:#228cb3;
+  color:#0c415c;
   font-weight: bold;
   font-size: 16px;
   font-family: $wrap-text;
@@ -42,7 +44,7 @@ a{
 
 .navbar-brand{
   @extend .nav-link;
-  color:#228cb3;
+  color:#0c415c;
   font-size: 30px;
   margin-left: 80px;
   margin-right:0;
@@ -54,7 +56,7 @@ a{
 }
 
 .dropdown .dropdown-menu .dropdown-item{
-  color:#228cb3;
+  color:#0c415c;
   font-size: 14px;
   font-weight: bold;
   font-family: $wrap-text;
@@ -83,19 +85,8 @@ a{
 }
 
 #main-body2{
-  background-color: $body2;
-  margin: 100px 200px auto 200px;
-  text-align: center;
-  border:solid;
-  border-color: $body2;
-  border-radius: 40px;
-
-}
-
-#main-body3{
   margin-top:100px;
   padding-left: 20px;
-
 }
 
 #head{
@@ -103,33 +94,27 @@ a{
   background-color: rgba(255,255,255,0.1);
   background-blend-mode: lighten;
   background-size:cover;
+  background-position: center;
   text-align: center;
   height:650px;
 }
 
 #title{
   font-family: 'Sacramento', cursive;
-  color:$heading;
+  color:#107a6e;
   font-size: 72px;
   font-weight:bold;
   word-spacing: 20px;
-  margin: 70px auto 0px auto;
+  margin: 20px auto 0px auto;
 
 }
 #sub-title{
-  color:#0F514F;
+  color:#0a3557;
   font-family: $wrap-text;
   font-size: 18px;
   font-weight: bold;
   margin-top: 5px;
   word-spacing: 3px;
-}
-
-.mountain{
-  margin-top: 100px;
-  height: 400px;
-  width:600px;
-  margin-bottom: 10px;
 }
 
 .me{
@@ -151,77 +136,6 @@ a{
   font-family: 'Merriweather', serif;
   line-height: 30px;
   font-weight:bold;
-}
-
-#facts{
-  text-align: center;
-  margin-top: 100px;
-}
-#factbox{
-  display:inline-block;
-  text-align: center;
-  padding:20px;
-  width:630px;
-  border:solid;
-  border-radius: 25px;
-  border-color:gray;
-  background-color: #85edad;
-  box-shadow: 15px 20px 8px 2px #888888;
-}
-
-#oppa_facts{
-  float:left;
-  height: 180px;
-  margin: -20px auto auto 20px;
-}
-
-#oppa_facts_text{
-  font-family: roboto, sans-serif;
-  font-size: 40px;
-  font-weight: bold;
-  color:#000;
-  position: relative;
-  right:70px;
-  margin: 50px -40px auto 100px;
-}
-
-#location-logo{
-  height:90px;
-  float:left;
-  margin: 100px auto auto -190px;
-}
-
-#location-text{
-  font-family: $wrap-text;
-  font-size: 28px;
-  margin: 130px auto auto 100px;
-}
-
-#xav-logo{
-  float:left;
-  height:120px;
-  margin:50px 15px auto 20px;
-}
-
-#xav-text{
-  font-family: $wrap-text;
-  font-size: 28px;
-  margin:110px 20px auto auto;
-}
-
-#smit-logo{
-  float:left;
-  height:137px;
-  margin:110px auto auto -125px;
-}
-
-#smit-text{
-  font-family: $wrap-text;
-  font-size: 27px;
-  position: relative;
-  right:20px;
-  margin:160px -50px 45px auto;
-  line-height: 50px;
 }
 
 #skill{
@@ -332,7 +246,7 @@ a{
   margin-top:60px;
   background-color:#25a8a4;
   text-align:center;
-  height:90px;
+  height:110px;
   padding-top:30px;
   padding-bottom: 0px;
 }
@@ -348,3 +262,78 @@ a{
   color:white;
   margin-bottom:-10px;
 }
+}
+
+//To make it responsove for mobile pages
+
+
+/*#facts{
+  text-align: center;
+  margin-top: 100px;
+}
+#factbox{
+  display:inline-block;
+  text-align: center;
+  padding:20px;
+  width:630px;
+  border:solid;
+  border-radius: 25px;
+  border-color:gray;
+  background-color: #85edad;
+  box-shadow: 15px 20px 8px 2px #888888;
+}
+
+#oppa_facts{
+  float:left;
+  height: 180px;
+  margin: -20px auto auto 20px;
+}
+
+#oppa_facts_text{
+  font-family: roboto, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color:#000;
+  position: relative;
+  right:70px;
+  margin: 50px -40px auto 100px;
+}
+
+#location-logo{
+  height:90px;
+  float:left;
+  margin: 100px auto auto -190px;
+}
+
+#location-text{
+  font-family: $wrap-text;
+  font-size: 28px;
+  margin: 130px auto auto 100px;
+}
+
+#xav-logo{
+  float:left;
+  height:120px;
+  margin:50px 15px auto 20px;
+}
+
+#xav-text{
+  font-family: $wrap-text;
+  font-size: 28px;
+  margin:110px 20px auto auto;
+}
+
+#smit-logo{
+  float:left;
+  height:137px;
+  margin:110px auto auto -125px;
+}
+
+#smit-text{
+  font-family: $wrap-text;
+  font-size: 27px;
+  position: relative;
+  right:20px;
+  margin:160px -50px 45px auto;
+  line-height: 50px;
+}*/
