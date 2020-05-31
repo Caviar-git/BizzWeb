@@ -4,10 +4,10 @@
     <title>BizzWeb Home</title>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel='stylesheet' href='BizzWeb.css'>
     <link rel='icon' href='D:\Git\Project0\favicon.ico'>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Balsamiq+Sans:ital@1&family=Galada&family=Great+Vibes&family=Lobster&family=Merriweather:ital@0;1&family=Roboto+Slab&family=Roboto:wght@300&family=Sacramento&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
@@ -30,7 +30,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Achievements</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="achievements.html">Technical</a>
+                <a class="dropdown-item" href="tech-achievements.html">Technical</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Non-Technical</a>
                 <div class="dropdown-divider"></div>
@@ -38,7 +38,7 @@
               </div>
             </li>
             <li class=nav-item>
-              <a class="nav-link" href="#">CV</a>
+              <a class="nav-link" href="#">Diaries</a>
             <li class="nav-item">
               <a class="nav-link" href="BizzWeb.html#end">Contact</a>
             </li>
@@ -55,34 +55,38 @@
       <p class = 'greeting'>Greetings!</p>
       <p class='intro'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
     </div>
+    <section id=features>
+      <div class='row'>
+        <div class='feature-box col-lg-4 col-sm-12'>
+          <img id=location-logo src='CSS - My Site Images\Location.png'>
+          <h1 class=logo-head><a href='https://www.lonelyplanet.com/india/kolkata-calcutta'>Kolkata</a></h1>
+          <p id=location-text>The City Of Joy, কলকাতা is where I am from.</p>
+        </div>
+        <div class='feature-box col-lg-4 col-sm-12'>
+          <img id=xav-logo src='CSS - My Site Images\xav.png'>
+          <h1 class=logo-head><a href='https://www.sxcsccu.edu.in'>Xaverian</a></h1>
+          <p id='xav-text'>Studied at St. Xavier's Collegiate School, Kolkata.</p>
+        </div>
 
-    <!--<div id=facts>
-      <div id=factbox>
-        <img id='oppa_facts' src='CSS - My Site Images\oppa_smug_black.png'>
-        <p id='oppa_facts_text'>Quick Facts About Me!</p>
-
-        <img id=location-logo src='CSS - My Site Images\Location.png'>
-        <p id=location-text>The City Of Joy, <a href='https://www.lonelyplanet.com/india/kolkata-calcutta' style="font-family: 'Galada', cursive;color:#25a8a4">কলকাতা</a> is where I am from.</p>
-
-        <img id=xav-logo src='CSS - My Site Images\xav.png'>
-        <p id='xav-text'>Proud to have belonged to <a href='https://www.sxcsccu.edu.in' style='color:#25a8a4;'>SXCS.</a></p>
-
-        <img id='smit-logo' src='CSS - My Site Images\smit.png'>
-        <p  id='smit-text'>Pursuing Bachelor's in Technology, at <a href='https://smu.edu.in/smit.html/' style='color:#25a8a4;'>SMIT.</a></p>
+        <div class='feature-box col-lg-4 col-sm-12'>
+          <img id='smit-logo' src='CSS - My Site Images\smit.png'>
+          <h1 class=logo-head><a href='https://smu.edu.in/smit.html/'>SMIT</a></h1>
+          <p  id='smit-text'>Pursuing Bachelor's in Technology, at SMIT.</p>
+        </div>
       </div>
-    </div>-->
+    </section>
 
-    <hr class=my-hr style='margin-top:80px;'>
+    <hr class=my-hr>
 
     <h1 id='skill'>My Skills & Achievements :</h1>
 
     <div id='main-body2'>
       <a href='experience.html'><img id='developer' src='CSS - My Site Images\dev_blue.png'></a>
-      <p id='developer-text'><span style='color:#25a8a4; font-size: 18px; font-style:italic;text-decoration:underline;margin-left:0px;'>Development and Programming Experience</span><br><br>I work mainly with the <span style='color:#25a8a4; font-size: 14px; font-style:italic;'>python and C</span> programming languages for my programming and automation works/projects. For my development work, I mainly use <span style='color:#25a8a4; font-size: 14px; font-style:italic;'>html, css, sass, bootstrap and javascript</span> along with some other designer tools. I have intermediate experience in the programming languages mentioned and beginner experience in web development. I'm actively looking for internships/project works to hone my skills further in the mentioned fields. Want specific details about my experience? <span style='color:#25a8a4; font-size: 14px; font-style:italic;'>Click on the blue icon.</span></p>
+      <p id='developer-text'><span style='color:#25a8a4; font-size: 18px; font-style:italic;text-decoration:underline;margin-left:0px;'>Development and Programming Experience</span><br><br>I work mainly with the <span style='color:#25a8a4; font-size: 15px; font-style:italic;'>python and C</span> programming languages for my programming and automation works/projects. For my development work, I mainly use <span style='color:#25a8a4; font-size: 15px; font-style:italic;'>html, css, sass, bootstrap and javascript</span> along with some other designer tools. I have intermediate experience in the programming languages mentioned and beginner experience in web development. I'm actively looking for internships/project works to hone my skills further in the mentioned fields. Want specific details about my experience? <span style='color:#25a8a4; font-size: 15px; font-style:italic;'>Click on the blue icon.</span></p>
       <img id='oppa_red' src='CSS - My Site Images\Oppa_doll_smug.png'>
 
-      <a href='tech.html'><img id='tech' src='CSS - My Site Images\pc_logo.png'></a>
-      <p id='tech-text'><span id='tech-span' style='color:#25a8a4; font-size: 18px; font-style:italic; text-decoration:underline;'>Technical Achievements</span><br><br>To develop and hone my skills further, I believe in taking up different endeavours that help me push myself. To check out my technical achievements, licenses and certifications, <span style='color:#25a8a4; font-size: 14px; font-style:italic;'>click on the computer.</span></p>
+      <a href='tech-achievements.html'><img id='tech' src='CSS - My Site Images\pc_logo.png'></a>
+      <p id='tech-text'><span id='tech-span' style='color:#25a8a4; font-size: 18px; font-style:italic; text-decoration:underline;'>Technical Achievements</span><br><br>To develop and hone my skills further, I believe in taking up different endeavours that help me push myself. To check out my technical achievements, licenses and certifications, <span style='color:#25a8a4; font-size: 15px; font-style:italic;'>click on the computer.</span></p>
       <img id='oppa_smile' src='CSS - My Site Images\oppa-smile.png'>
 
       <a href=''><img id='nontech' src='CSS - My Site Images\nontech.png'></a>
@@ -113,7 +117,6 @@
       <p id ='email'>sarkar.biswadeep07@gmail.com</p>
       <p id='copyright'>© 2020 Biswadeep Sarkar.</p>
     </div>
-
 
   </body>
 </html>

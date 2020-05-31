@@ -1,0 +1,357 @@
+a {
+  color: #126b58; }
+
+a:hover {
+  color: #0d72a8; }
+
+.navbar {
+  height: 80px; }
+
+.navbar-nav {
+  margin-right: 20px; }
+
+.nav-item {
+  text-align: right;
+  padding-right: 10px;
+  background-color: rgba(30, 179, 174, 0.2); }
+
+.nav-link, .navbar-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Merriweather"; }
+
+.nav-link:hover, .navbar-brand:hover {
+  color: #126b58; }
+
+.navbar-trans {
+  background-color: rgba(30, 179, 174, 0.85); }
+
+.navbar-brand {
+  font-size: 32px;
+  margin-left: 10px;
+  margin-right: 0; }
+
+.dropdown .dropdown-menu {
+  background-color: #1eb3ae;
+  border-radius: 12px; }
+
+.dropdown .dropdown-menu .dropdown-item {
+  color: #126b58;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Merriweather"; }
+
+.dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #126b58;
+  color: white; }
+
+#ham {
+  height: 47px; }
+
+.carousel-item {
+  text-align: center; }
+
+#slideshow {
+  margin-top: 130px;
+  background-color: #1eb3ae;
+  padding-top: 5%;
+  padding-bottom: 7.6%;
+  text-align: center; }
+
+#general-para, #special-para, #webdata-para, #sql-para, #ds-para, #pyos-para, #cap-para, #basic-para, #internshala-para, #crash-para {
+  display: inline-block;
+  font-family: "Merriweather";
+  color: white;
+  font-size: 45px;
+  position: relative;
+  top: 10px; }
+
+#general-head, #special-head, #webdata-head, #sql-head, #ds-head, #pyos-head, #cap-head, #basic-head, #internshala-head, #crash-head {
+  margin-top: 30px;
+  font-family: "Merriweather";
+  font-weight: bold;
+  font-size: 27px;
+  color: white; }
+
+#mchgn {
+  height: 100px; }
+
+#google {
+  height: 55px;
+  margin-right: 20px; }
+
+#intern {
+  height: 70px;
+  margin-right: 10px; }
+
+#special-laptop, #webdata-laptop, #sql-laptop, #basic-laptop, #cap-laptop, #ds-laptop, #internshala-laptop, #crash-laptop, #pyos-laptop {
+  padding-top: 30px; }
+
+/*------------Laptop Size Screen----------*/
+@media screen and (min-width: 500px) {
+  h5 {
+    font-size: 17px;
+    font-family: 'Merriweather';
+    margin-top: 30px;
+    color: white; }
+
+  #head {
+    background-image: url("CSS - My Site Images/uni.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(17, 18, 17, 0.27);
+    background-blend-mode: hue;
+    height: 550px; }
+
+  #title {
+    text-align: center;
+    color: white;
+    font-family: "Merriweather", sans-serif;
+    font-size: 3.8em;
+    margin: 140px auto auto auto; }
+
+  #body1 {
+    text-align: center; }
+
+  #lic {
+    font-family: 'Roboto';
+    color: #1eb3ae;
+    font-weight: bold;
+    padding-top: 7%; }
+
+  #medal {
+    height: 160px;
+    margin: 30px auto auto; }
+
+  #intro {
+    margin: 30px 370px 50px;
+    text-align: justify;
+    font-family: 'Merriweather';
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: bold; }
+
+  .my-hr {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 50px;
+    color: darkgray;
+    border-top: dotted;
+    border-top-width: 6px; }
+
+  #special-phone, #webdata-phone, #sql-phone, #basic-phone, #cap-phone, #ds-phone, #internshala-phone, #crash-phone, #pyos-phone {
+    display: none; }
+
+  #only-phone {
+    display: none; }
+
+  #contact {
+    text-align: center;
+    margin-top: 100px; }
+
+  #end-head {
+    font-size: 46px;
+    word-spacing: 8px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #1eb3ae; }
+
+  #end-para {
+    margin: 30px 370px 50px;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: bold;
+    word-spacing: 3px; }
+
+  .btn {
+    padding: 10px 20px 10px;
+    font-family: 'Merriweather';
+    font-size: 18px;
+    background-color: #1eb3ae; }
+
+  .btn:hover {
+    background-color: #126b58; }
+
+  #footer {
+    margin-top: 60px;
+    background-color: #1eb3ae;
+    text-align: center;
+    height: 110px;
+    padding-top: 30px;
+    padding-bottom: 0px; }
+
+  #email {
+    text-decoration: underline;
+    color: #126b58;
+    font-family: 'Merriweather', serif;
+    font-size: 17px; }
+
+  #copyright {
+    font-family: "Merriweather", serif;
+    font-size: 13px;
+    color: white;
+    margin-bottom: -10px; } }
+/*---------Mobile Responsive----------*/
+@media screen and (max-width: 499px) {
+  h5 {
+    font-size: 13px;
+    font-family: "Merriweather";
+    margin-top: 30px;
+    color: white; }
+
+  #head {
+    background-image: url("CSS - My Site Images/universities.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(17, 18, 17, 0.1);
+    background-blend-mode: hue;
+    height: 500px; }
+
+  #title {
+    text-align: center;
+    color: #126b58;
+    font-family: "Merriweather", sans-serif;
+    font-size: 48px;
+    margin: 140px auto auto auto; }
+
+  #body1 {
+    text-align: center; }
+
+  #lic {
+    font-family: 'Roboto';
+    color: #1eb3ae;
+    font-weight: bold;
+    padding-top: 7%; }
+
+  #medal {
+    height: 130px;
+    margin: 30px auto auto; }
+
+  #intro {
+    margin: 30px 30px 50px;
+    text-align: justify;
+    font-family: "Merriweather";
+    font-size: 12px;
+    line-height: 23px;
+    font-weight: 700; }
+
+  .my-hr {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 50px;
+    color: darkgray;
+    border-top: dotted;
+    border-top-width: 6px; }
+
+  .carousel-slide {
+    data-interval: 2800; }
+
+  #mchgn {
+    height: 75px; }
+
+  #google {
+    height: 30px;
+    margin-right: 20px; }
+
+  #intern {
+    height: 55px;
+    margin-right: 10px; }
+
+  /*  #general-para{
+      display: inline-block;
+      font-family: $wrap-text;
+      color:white;
+      font-size:34px;
+      position:relative;
+      top:10px;
+    }
+  
+    #general-head{
+      margin-top: 30px;
+      font-family: $wrap-text;
+      font-weight: bold;
+      font-size: 22px;
+      color:white;
+    }*/
+  #special-para, #webdata-para, #sql-para, #ds-para, #pyos-para, #cap-para, #basic-para, #internshala-para, #crash-para {
+    display: inline-block;
+    font-family: "Merriweather";
+    color: white;
+    font-size: 34px;
+    margin-top: -7px;
+    margin-bottom: 24px; }
+
+  #special-head, #webdata-head, #sql-head, #ds-head, #pyos-head, #cap-head, #basic-head, #internshala-head, #crash-head {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 30px;
+    font-family: "Merriweather";
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    line-height: 33px; }
+
+  #special-laptop, #webdata-laptop, #sql-laptop, #basic-laptop, #cap-laptop, #ds-laptop, #internshala-laptop, #crash-laptop, #pyos-laptop {
+    display: none; }
+
+  #contact {
+    text-align: center;
+    margin-top: 70px; }
+
+  #end-head {
+    margin: auto 20px auto;
+    font-size: 40px;
+    word-spacing: 8px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #1eb3ae; }
+
+  #end-br {
+    display: none; }
+
+  #end-para {
+    margin: 30px 30px 40px;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: bold;
+    word-spacing: 3px; }
+
+  .btn {
+    padding: 10px 20px 10px;
+    font-family: "Merriweather";
+    font-size: 18px;
+    background-color: #1eb3ae; }
+
+  .btn:hover {
+    background-color: #126b58; }
+
+  #footer {
+    margin-top: 60px;
+    background-color: #1eb3ae;
+    text-align: center;
+    height: 110px;
+    padding-top: 30px;
+    padding-bottom: 0px; }
+
+  #email {
+    text-decoration: underline;
+    color: #126b58;
+    font-family: "Merriweather", serif;
+    font-size: 17px; }
+
+  #copyright {
+    font-family: "Merriweather", serif;
+    font-size: 13px;
+    color: white;
+    margin-bottom: -10px; } }
+
+/*# sourceMappingURL=tech-achievements.css.map */
