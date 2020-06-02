@@ -59,7 +59,7 @@ a:hover {
   padding-bottom: 7.6%;
   text-align: center; }
 
-#general-para, #special-para, #webdata-para, #sql-para, #ds-para, #pyos-para, #cap-para, #basic-para, #internshala-para, #crash-para {
+#general-para, #special-para, #webdata-para, #sql-para, #ds-para, #pyos-para, #cap-para, #basic-para, #internshala-para, #crash-para, #git-para {
   display: inline-block;
   font-family: "Merriweather";
   color: white;
@@ -67,7 +67,7 @@ a:hover {
   position: relative;
   top: 10px; }
 
-#general-head, #special-head, #webdata-head, #sql-head, #ds-head, #pyos-head, #cap-head, #basic-head, #internshala-head, #crash-head {
+#general-head, #special-head, #webdata-head, #sql-head, #ds-head, #pyos-head, #cap-head, #basic-head, #internshala-head, #crash-head, #git-head {
   margin-top: 30px;
   font-family: "Merriweather";
   font-weight: bold;
@@ -85,7 +85,7 @@ a:hover {
   height: 70px;
   margin-right: 10px; }
 
-#special-laptop, #webdata-laptop, #sql-laptop, #basic-laptop, #cap-laptop, #ds-laptop, #internshala-laptop, #crash-laptop, #pyos-laptop {
+#special-laptop, #webdata-laptop, #sql-laptop, #basic-laptop, #cap-laptop, #ds-laptop, #internshala-laptop, #crash-laptop, #pyos-laptop, #git-laptop {
   padding-top: 30px; }
 
 /*------------Laptop Size Screen----------*/
@@ -142,7 +142,7 @@ a:hover {
     border-top: dotted;
     border-top-width: 6px; }
 
-  #special-phone, #webdata-phone, #sql-phone, #basic-phone, #cap-phone, #ds-phone, #internshala-phone, #crash-phone, #pyos-phone {
+  #special-phone, #webdata-phone, #sql-phone, #basic-phone, #cap-phone, #ds-phone, #internshala-phone, #crash-phone, #pyos-phone, #git-phone {
     display: none; }
 
   #only-phone {
@@ -280,7 +280,7 @@ a:hover {
       font-size: 22px;
       color:white;
     }*/
-  #special-para, #webdata-para, #sql-para, #ds-para, #pyos-para, #cap-para, #basic-para, #internshala-para, #crash-para {
+  #special-para, #webdata-para, #sql-para, #ds-para, #pyos-para, #cap-para, #basic-para, #internshala-para, #crash-para, #git-para {
     display: inline-block;
     font-family: "Merriweather";
     color: white;
@@ -288,7 +288,7 @@ a:hover {
     margin-top: -7px;
     margin-bottom: 24px; }
 
-  #special-head, #webdata-head, #sql-head, #ds-head, #pyos-head, #cap-head, #basic-head, #internshala-head, #crash-head {
+  #special-head, #webdata-head, #sql-head, #ds-head, #pyos-head, #cap-head, #basic-head, #internshala-head, #crash-head, #git-head {
     padding-left: 5px;
     padding-right: 5px;
     margin-top: 30px;
@@ -298,7 +298,7 @@ a:hover {
     color: white;
     line-height: 33px; }
 
-  #special-laptop, #webdata-laptop, #sql-laptop, #basic-laptop, #cap-laptop, #ds-laptop, #internshala-laptop, #crash-laptop, #pyos-laptop {
+  #special-laptop, #webdata-laptop, #sql-laptop, #basic-laptop, #cap-laptop, #ds-laptop, #internshala-laptop, #crash-laptop, #pyos-laptop, #git-laptop {
     display: none; }
 
   #contact {
