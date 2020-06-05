@@ -63,21 +63,6 @@ a:hover {
   padding-bottom: 3%;
   text-align: center; }
 
-#general-para, #special-para, #webdata-para, #sql-para, #ds-para, #pyos-para, #cap-para, #basic-para, #internshala-para, #crash-para, #git-para {
-  display: inline-block;
-  font-family: "Merriweather";
-  color: white;
-  font-size: 45px;
-  position: relative;
-  top: 10px; }
-
-#general-head, #special-head, #webdata-head, #sql-head, #ds-head, #pyos-head, #cap-head, #basic-head, #internshala-head, #crash-head, #git-head {
-  margin-top: 30px;
-  font-family: "Merriweather";
-  font-weight: bold;
-  font-size: 27px;
-  color: white; }
-
 #mchgn {
   height: 100px; }
 
@@ -88,9 +73,6 @@ a:hover {
 #intern {
   height: 70px;
   margin-right: 10px; }
-
-#special-laptop, #webdata-laptop, #sql-laptop, #basic-laptop, #cap-laptop, #ds-laptop, #internshala-laptop, #crash-laptop, #pyos-laptop, #git-laptop {
-  padding-top: 30px; }
 
 /*------------Laptop Size Screen----------*/
 @media screen and (min-width: 500px) {
@@ -165,8 +147,26 @@ a:hover {
     border-top: dotted;
     border-top-width: 6px; }
 
-  #special-phone, #webdata-phone, #sql-phone, #basic-phone, #cap-phone, #ds-phone, #internshala-phone, #crash-phone, #pyos-phone, #git-phone {
+  .general-phone {
     display: none; }
+
+  .general-laptop {
+    padding-top: 30px; }
+
+  .general-para {
+    display: inline-block;
+    font-family: "Merriweather";
+    color: white;
+    font-size: 45px;
+    position: relative;
+    top: 10px; }
+
+  .general-head {
+    margin-top: 30px;
+    font-family: "Merriweather";
+    font-weight: bold;
+    font-size: 27px;
+    color: white; }
 
   #only-phone {
     display: none; }
@@ -333,7 +333,7 @@ a:hover {
       font-size: 22px;
       color:white;
     }*/
-  #special-para, #webdata-para, #sql-para, #ds-para, #pyos-para, #cap-para, #basic-para, #internshala-para, #crash-para, #git-para {
+  .general-para {
     display: inline-block;
     font-family: "Merriweather";
     color: white;
@@ -341,7 +341,7 @@ a:hover {
     margin-top: -7px;
     margin-bottom: 24px; }
 
-  #special-head, #webdata-head, #sql-head, #ds-head, #pyos-head, #cap-head, #basic-head, #internshala-head, #crash-head, #git-head {
+  .general-head {
     padding-left: 5px;
     padding-right: 5px;
     margin-top: 30px;
@@ -351,7 +351,7 @@ a:hover {
     color: white;
     line-height: 33px; }
 
-  #special-laptop, #webdata-laptop, #sql-laptop, #basic-laptop, #cap-laptop, #ds-laptop, #internshala-laptop, #crash-laptop, #pyos-laptop, #git-laptop {
+  .general-laptop {
     display: none; }
 
   #contact {
