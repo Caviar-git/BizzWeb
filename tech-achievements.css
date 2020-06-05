@@ -227,6 +227,9 @@ a:hover {
     margin-bottom: -10px; } }
 /*---------Mobile Responsive----------*/
 @media screen and (max-width: 499px) {
+  body {
+    background-color: #faf8ff; }
+
   .navbar {
     height: 80px;
     background-color: #1eb3ae; }
@@ -272,8 +275,7 @@ a:hover {
     color: #126b58;
     font-family: 'Rubik';
     font-size: 44px;
-    margin-top: 0px;
-    padding-top: 60px; }
+    padding-top: 55px; }
 
   #head-para-phone {
     font-family: "Rubik";
@@ -284,15 +286,13 @@ a:hover {
     color: white; }
 
   #cartoon-phone {
-    height: 300px;
-    margin-top: 0px; }
+    height: 300px; }
 
   #body1 {
     text-align: center;
     margin-top: -200px;
     position: relative;
-    z-index: 1;
-    background-color: white; }
+    z-index: 1; }
 
   #lic {
     font-family: 'Roboto';

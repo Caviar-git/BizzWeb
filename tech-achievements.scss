@@ -308,6 +308,10 @@ color:white;
 
 @media screen and (max-width:499px){
 
+  body{
+    background-color: #faf8ff;
+  }
+
   .navbar{
     height:80px;
     background-color: $back;
@@ -362,8 +366,7 @@ color:white;
   color: $dark-text;
   font-family: 'Rubik';
   font-size: 44px;
-  margin-top:0px;
-  padding-top:60px;
+  padding-top:55px;
 }
 
 #head-para-phone{
@@ -377,7 +380,6 @@ color:white;
 
 #cartoon-phone{
   height:300px;
-  margin-top: 0px;
 }
 
 #body1{
@@ -385,7 +387,6 @@ color:white;
   margin-top: -200px;
   position: relative;
   z-index: 1;
-  background-color: white;
 }
 
 #lic{
