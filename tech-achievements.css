@@ -55,10 +55,10 @@ a:hover {
   padding-top: 20px; }
 
 .carousel-item {
-  text-align: center; }
+  text-align: center;
+  background-color: #1eb3ae; }
 
 #slideshow {
-  background-color: #1eb3ae;
   padding-top: 2%;
   padding-bottom: 3%;
   text-align: center; }
@@ -88,6 +88,15 @@ a:hover {
   .navbar-brand {
     font-size: 22px; }
 
+  h5 {
+    font-size: 17px;
+    font-family: 'Merriweather';
+    margin-top: 30px;
+    color: white; }
+
+  #cartoon-phone {
+    display: none; }
+
   #phone-title {
     display: none; }
 
@@ -108,11 +117,8 @@ a:hover {
     line-height: 65px;
     text-align: right; }
 
-  h5 {
-    font-size: 17px;
-    font-family: 'Merriweather';
-    margin-top: 30px;
-    color: white; }
+  #head-para-phone {
+    display: none; }
 
   #body1 {
     text-align: center;
@@ -251,29 +257,39 @@ a:hover {
     font-size: 13px;
     font-family: "Merriweather";
     margin-top: 30px;
+    margin-bottom: 20px;
     color: white; }
 
   #head {
-    background-image: url("CSS - My Site Images/universities.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: rgba(17, 18, 17, 0.1);
-    background-blend-mode: hue;
+    background-color: #9bc1cf;
     height: 500px; }
+
+  #phone-head {
+    text-align: center; }
 
   #phone-title {
     text-align: center;
     color: #126b58;
-    font-family: "Merriweather", sans-serif;
-    font-size: 48px;
+    font-family: 'Rubik';
+    font-size: 44px;
     margin-top: 0px;
-    padding-top: 150px; }
+    padding-top: 60px; }
+
+  #head-para-phone {
+    font-family: "Rubik";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 20px 20px;
+    line-height: 40px;
+    color: white; }
+
+  #cartoon-phone {
+    height: 300px;
+    margin-top: 0px; }
 
   #body1 {
     text-align: center;
-    position: static;
-    margin-top: -220px; }
+    margin-top: -200px; }
 
   #lic {
     font-family: 'Roboto';
@@ -303,42 +319,28 @@ a:hover {
     border-top: dotted;
     border-top-width: 6px; }
 
-  .carousel-slide {
-    data-interval: 2800; }
+  .carousel-item {
+    background-color: #9bc1cf; }
 
   #mchgn {
     height: 75px; }
 
   #google {
-    height: 30px;
-    margin-right: 20px; }
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding-left: 10px; }
 
   #intern {
-    height: 55px;
+    margin-top: 20px;
+    height: 50px;
     margin-right: 10px; }
 
-  /*  #general-para{
-      display: inline-block;
-      font-family: $wrap-text;
-      color:white;
-      font-size:34px;
-      position:relative;
-      top:10px;
-    }
-  
-    #general-head{
-      margin-top: 30px;
-      font-family: $wrap-text;
-      font-weight: bold;
-      font-size: 22px;
-      color:white;
-    }*/
   .general-para {
     display: inline-block;
     font-family: "Merriweather";
     color: white;
     font-size: 34px;
-    margin-top: -7px;
     margin-bottom: 24px; }
 
   .general-head {
@@ -391,8 +393,8 @@ a:hover {
     margin-top: 60px;
     background-color: #1eb3ae;
     text-align: center;
-    height: 110px;
-    padding-top: 30px;
+    height: 80px;
+    padding-top: 20px;
     padding-bottom: 0px; }
 
   #email {
@@ -404,7 +406,6 @@ a:hover {
   #copyright {
     font-family: "Merriweather", serif;
     font-size: 13px;
-    color: white;
-    margin-bottom: -10px; } }
+    color: white; } }
 
 /*# sourceMappingURL=tech-achievements.css.map */
