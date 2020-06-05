@@ -397,8 +397,7 @@ a:hover {
     background-color: #1eb3ae;
     text-align: center;
     height: 80px;
-    padding-top: 20px;
-    padding-bottom: 0px; }
+    padding-top: 20px; }
 
   #email {
     text-decoration: underline;
@@ -409,6 +408,7 @@ a:hover {
   #copyright {
     font-family: "Merriweather", serif;
     font-size: 13px;
+    margin-bottom: 0px;
     color: white; } }
 
 /*# sourceMappingURL=tech-achievements.css.map */
