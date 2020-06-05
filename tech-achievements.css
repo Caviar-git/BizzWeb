@@ -64,7 +64,8 @@ a:hover {
   text-align: center; }
 
 #mchgn {
-  height: 100px; }
+  height: 100px;
+  margin-top: 20px; }
 
 #google {
   height: 55px;
@@ -91,7 +92,8 @@ a:hover {
   h5 {
     font-size: 17px;
     font-family: 'Merriweather';
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: white; }
 
   #cartoon-phone {
@@ -165,7 +167,7 @@ a:hover {
     color: white;
     font-size: 45px;
     position: relative;
-    top: 10px; }
+    top: 20px; }
 
   .general-head {
     margin-top: 30px;
