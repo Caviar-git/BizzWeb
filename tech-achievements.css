@@ -289,7 +289,10 @@ a:hover {
 
   #body1 {
     text-align: center;
-    margin-top: -200px; }
+    margin-top: -200px;
+    position: relative;
+    z-index: 1;
+    background-color: white; }
 
   #lic {
     font-family: 'Roboto';
