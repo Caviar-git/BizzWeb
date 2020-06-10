@@ -1,0 +1,41 @@
+.container{
+  text-align: center;
+  padding:1% 22%;
+}
+
+.title{
+  padding-top:30px;
+  font-size: 100px;
+  font-family: 'Lobster';
+  color:#FF5E30;
+}
+
+.head{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+em{
+  color:#FF5E30;
+}
+
+body{
+  background-color: #0a1333;
+}
+
+footer{
+  margin-top: 55px;
+  text-align: center;
+  color:#fff;
+}
+
+.para{
+  color:#fff;
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-family: 'Sacramento'
+}
+
+.generic-img{
+  height:180px;
+}
