@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Redirection Script -->
+  <script type="text/javascript">
+    function redirect() {
+      if (screen.width <= 500) {
+        window.location = "D:/MOOC_Material/Udemy/FullStackDev/BizzWeb/BizzWeb.html";
+      }
+    }
+  </script>
+
+  <head>
+    <meta charset=utf-8>
+    <meta name=viewport content='width=device-width, initial-scale=1.0'>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,700&family=Open+Sans:wght@400;600;700;800&family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+    <!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- Bizz.css -->
+    <link rel=stylesheet href='Bizz.css'>
+  </head>
+
+  <body  onload=redirect()>
+    <nav class=''>
+      <ul class='nav-content'>
+        <li class='nav-item navbrand'>B.</li>
+        <li class='nav-item up' style='padding-right:2.8em;'>
+          <a class='nav-link home' style='color:#0176f6;' href='#'>Home</a>
+        </li>
+        <li class='nav-item dropdown'>
+          <a class='nav-link underline' href='#'>Accomplishments <i class="fas fa-caret-up carat-up"></i><i class="fas fa-caret-down carat-down"></i></a>
+          <div class='dropdown-box'>
+            <a class='dropdown-item ' href='#'>Technical</a>
+            <hr>
+            <a class='dropdown-item' href='#'>Extra -Curricular</a>
+          </div>
+        </li>
+        <li class='nav-item up'>
+          <a class='nav-link underline' href='#'>Projects</a>
+        </li>
+        <li class=nav-item>
+          <a class='nav-link underline' href='#'>Diaries</a>
+        </li>
+        <li class=nav-item>
+          <a class='nav-link underline' href='#'>Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class=up>
+      <div class='up blueBox'>
+        <div id=grayBox>
+        </div>
+      </div>
+
+      <div id=head>
+        <em class=hello>HELLO</em>
+        <h1 style='font-weight: 700;font-size:4.3em;line-height:90px;' class=title>I'm <span style="color:#0176f6;">Biswadeep,</span></h1>
+        <h3 style="font-weight:600;font-size:2.5em;" class=title>a <span style="color:#0176f6;">computer</span> science enthusiast.</h3>
+        <button type="button" class="btn-head">Contact Me</button>
+      </div>
+      <section class=main-container>
+        <section class=intro>
+          <img class='landscape-me' src='images/landscape-small.jpg'>
+          <div class='intro-container'>
+            <em class=hello>Welcome</em>
+            <h2 class=intro-head>About Me.</h3>
+            <p class=intro-para>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <div class='intro-logo-row row'>
+              <div class='col-lg-4'>
+                <img src='images/Location.png' class='intro-logo location'>
+                <p class='intro-logo-para location-para'>Kolkata.</p>
+              </div>
+              <div class='col-lg-4 intro-logo-col'>
+                <img src='images/Xav.png' class=intro-logo>
+                <p class='intro-logo-para xav-para'>Alma-mater.</p>
+              </div>
+              <div class='col-lg-4' style='padding-left:4em;'>
+                <img src='images/smit.png' class=intro-logo>
+                <p class='smit-para intro-logo-para'>College.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class='activity'>
+          <svg class=blue-design height=550 width=80% class=blue-design><use href='#svg-wave-blue'></use></svg>
+          <em class=explore>Let's Explore,</em>
+          <h1 class=activity-header>Some Of My Top Notch Skills Are . . .</h1>
+          <div id=activity-body>
+            <div class="bootstrap-cards row row-cols-1 row-cols-md-3">
+              <div class="col mb-4 python">
+                <div class="card python-body ">
+                  <img id=python-img src="images\Python_logo.png" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">PYTHON</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 web">
+                <div class="card web-body">
+                  <img id=web-img src="images\dev_blue.png" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">WEB DEVELOPMENT</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4 sql">
+                <div class="card sql-body">
+                  <img src="images\Sql_logo.png" id=sql-img class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">SQL</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <svg id=blue-design2 height=420 width=74.1%><use href='#svg-wave-blue2'></use></svg>
+        </section>
+
+
+        <section class=below-bluedesign>
+          <div class='other-and-besides'>
+            <em class=other-head>OTHER THINGS I DO</em>
+            <h2 class='other-stuff underline-otherstuff'>I'm pretty good at some other stuff too</h2>
+            <h3>
+          </div>
+          <div class='steel-gray'>
+            <section class=C>
+              <img src='images\cprog.png' class=C-img>
+              <div class=C-content>
+                <h1 class=C-header>C/C++</h1>
+                <p class=C-para>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </section>
+
+            <section class=bash>
+              <img src='images\laptop.png' class=laptop>
+              <div class=bash-content>
+                <h1 class='bash-header'>Bash</h1>
+                <p class='bash-para'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </section>
+
+            <section class=hire>
+              <h2 class=letsWork>Let's work together!<br>I'm available for working on <span style='font-weight:700;'>projects or interning.<span></h2>
+              <button class=btn-hire>Contact Me</button>
+            </section>
+          </div>
+        </section>
+
+        <section class='end'>
+          <div class=' end-text'>
+            <h2 id='end-head'>Get In Touch</h2>
+            <p class=end-para>If you are a fellow computer science/tech enthusiast, Would love to know you better!</p>
+            <p class=end-para2>I'm only a message away</p>
+          </div>
+          <div class='logos'>
+            <a href=''><img id='linkedin' src='images\Linkin_round.png'></a>
+            <a href='mailto:sarkar.biswadeep07@gmail.com?subject=Connect%20with%20Biswadeep'><img id='gmail' src='images\Gmail.png'></a>
+            <a href=''><img id='github' src='images\Github.png'></a>
+          </div>
+        </section>
+      <section>
+    </section>
+
+    <!-- Scripts Section -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src=Bizz.js></script>
+    <script src="https://kit.fontawesome.com/deab13c393.js" crossorigin="anonymous"></script>
+
+    <!-- SVG Section -->
+    <svg>
+      <symbol id=svg-wave-blue viewBox="150 100 950 450">
+        <path fill="#e1e5e8" d="M 0 600 C 0 400 100 300 240 240 Q 450 150 460 300 C 480 460 580 420 680 360 C 960 220 880 520 980 500 Q 1180 460 1200 600 Z"></path>
+      </symbol>
+    </svg>
+
+    <svg>
+      <symbol id=svg-wave-blue2 viewBox="25 100 1100 400">
+        <path fill="#e1e5e8" d="M 0 600 C 0 400 100 300 240 240 Q 450 150 460 300 C 480 460 580 420 680 360 C 960 220 880 520 980 500 Q 1180 460 1200 600 Z"></path>
+      </symbol>
+    </svg>
+<!-- d9eaff -->
+  </body>
+
+  <footer>
+    <p id ='email'>sarkar.biswadeep07@gmail.com</p>
+    <p id='git-name'>www 🎲 Caviar-git 🎲 github 🎲 io 🎲 BizzWeb</p>
+  </footer>
+
+</html>
+<!-- <script src="https://kit.fontawesome.com/deab13c393.js" crossorigin="anonymous"></script><i class="fas fa-angle-down carat"></i> -->

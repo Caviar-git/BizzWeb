@@ -1,0 +1,731 @@
+$brightBlue: #0176f6;
+$skyBlue:#77b6fe;
+$lightGray:#d7dde0;
+$darkGray:#7b848c;
+$blueDesign:#e1e5e8;
+$darkBlue:#10345e;
+$shadow:#626964;
+$card-highlight:#ff6b6b;
+$steelGray:#f4f4f4;
+
+// Styling the raw html elements
+html{
+  scroll-behavior: smooth;
+}
+
+hr{
+  margin:0;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+// Designing the navbar
+
+nav{
+  --text:#000;
+  --text-inverse:#333;
+  --background:transparent;
+  --pos:absolute; //This is because the dropdown is onnly going up again when we keep the pos of nav either fixed or abs. Otherwise it wont go up if the mouse leaves the 'accomplishments' button and comes to the body.
+
+  .nav-content .nav-item .nav-link{
+    color:var(--text);
+    font-size: 0.95em;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    position: relative;
+    padding: 0;
+  }
+
+  background-color: var(--background);
+  margin: 0;
+  width:100%;
+  height:4.7em;
+  display: flex;
+  align-items: center;
+  top:0;
+  position: var(--pos);
+  padding-top: 0.5em;
+  transition: background 300ms ease-in;
+}
+
+.nav-scroll{
+  --text:#333;
+  --text-inverse:#f4f4f4;
+  --background:#f5f5f5;
+  --pos:fixed;
+
+  box-shadow:0 3px 20px rgba(black,0.2);
+  z-index: 1;
+  font-size: 1.05em;
+}
+
+.nav-item{
+  display:inline-block;
+  padding-left: 2.8em;
+  margin: 0;
+}
+
+.navbrand{
+  font-size: 1.6em;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  // color:linear-gradient()
+  margin: auto 17.2em auto 0.9em;
+}
+
+//Designing the dropdown box
+
+.dropdown{
+  padding-left:0;
+}
+.dropdown-box{
+  background-color: rgba(#f4f4f4,1);
+  position: absolute;
+  border: 2px solid #e4f2e8;
+  text-align: left;
+  top:2em;
+  border-radius: 5%;
+  box-shadow:0 2px 20px rgba(black,0.2);
+}
+
+.dropdown-item{
+  padding-top: 15px;
+  padding-bottom:10px;
+  font-family: 'Open Sans';
+  font-weight:600;
+  font-size: 0.9em;
+  color:black;
+}
+
+.dropdown-item:hover{
+  background-color: $brightBlue;
+  color:white;
+}
+
+// Underlining the contants of the navbar
+
+.underline:hover,.home:hover{
+  text-shadow: 4px 4px 8px darkgray;
+}
+
+.underline::before{
+  content:'';
+  background-color: $brightBlue;
+  position:absolute;
+  width:104%;
+  height: 2px;
+  top:1.7em;
+  transform: scale(0);
+  transition: transform 350ms;
+}
+
+.home::before{
+  @extend .underline::before;
+  transform: scale(1);
+}
+
+.underline:hover::before{
+  transform: scale(1);
+}
+
+// Designing the header section with coloured background boxes
+.blueBox{
+  background: $skyBlue;
+  height:38em;
+  width:35em;
+  z-index: -1;
+  position: absolute;
+  right:0;
+  top:0;
+  #grayBox{
+    background:linear-gradient(to right,#fafafa 10%,$lightGray);
+    position: absolute;
+    width:55em;
+    height:42em;
+    top:15%;
+    right:23%;
+    border-radius: 0.5%;
+    box-shadow: 4px 4px 16px 2px #626964;
+  }
+}
+
+// Content design of the header section
+.hello{
+  color: $brightBlue;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
+#head{
+  font-family: 'Montserrat';
+  position: absolute;
+  width:30em;
+  top:35%;
+  left:10%;
+  z-index: -1;
+}
+
+.title{
+  padding-top:12px;
+  line-height: 60px;
+  letter-spacing: 2px;
+}
+
+.btn-head{
+  border: solid 1.4px $brightBlue;
+  border-radius: 7.5%;
+  height:2.5em;
+  font-size: 1.15em;
+  background-color: white;
+  color:$brightBlue;
+  margin-top: 2em;
+  font-family: 'Open Sans';
+}
+
+.btn-head:hover{
+  background-color: $brightBlue;
+  color:white;
+  transition: background-color 0.4s;
+}
+
+// Introduction section design
+.intro{
+  margin-top: 720px;
+  padding:9.5em 8.5em;
+}
+
+.landscape-me{
+  width:30em;
+  height:23em;
+  box-shadow: -4px 4px 20px $shadow;
+  float: left;
+  margin-left: 2em;
+  transform: translate(-30%);
+  opacity:0;
+}
+
+.intro-container{
+  margin-left: 38em;
+  width:33em;
+  transform: translate(30%);
+  opacity:0;
+}
+
+.slide-in.intro-container,.slide-in.landscape-me{
+  transform: translate(0);
+  opacity:1;
+  transition: opacity 700ms ease-in,transform 800ms ease-in;
+}
+
+.intro-head{
+  font-size: 1.8em;
+  font-weight: bold;
+  padding-top: 0.6em;
+}
+
+.intro-para{
+  font-family:'Open Sans';
+  font-weight: 500;
+  padding-top: 0.5em;
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+.intro-logo-row{
+  margin-top: 1.3em;
+  padding-top: 1em;
+}
+
+.intro-logo-col{
+  padding-left: 3em;
+}
+.intro-logo{
+  margin-top: -0.3em;
+  height:5.2em;
+  transform: scaleX(1.1);
+}
+
+.location{
+  height:4.4em;
+  margin-top: 0.3em;
+  transform: scaleY(1.05);
+  transform: scaleX(1.1);
+}
+
+.intro-logo-para{
+  color:$brightBlue;
+  font-weight: 500;
+}
+
+.location-para{
+  margin-top: 0.15em;
+}
+.xav-para{
+  margin-left: -1em;
+}
+.smit-para{
+  margin-top: -0.1em;
+  padding-left: 1em;
+}
+
+//Activity section design
+.activity{
+  width:100%;
+  position: absolute;
+  margin-top: -8em;
+  opacity:0;
+}
+
+.activity.fade-in{
+  opacity:1;
+  transition: opacity 400ms ease-in;
+}
+
+.explore{
+  background: -webkit-linear-gradient($brightBlue,$darkBlue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-family: 'Raleway';
+  font-size: 1.6em;
+  font-style: normal;
+  position: absolute;
+  top:9.5em;
+  left:3.4em;
+  color:$darkBlue;
+}
+
+.blue-design{
+  position: absolute;
+  z-index: -1;
+  margin-top: -4em;
+  transform: scaleX(1.5);
+}
+
+.activity-header{
+  font-family:'Montserrat';
+  font-size: 3.9em;
+  font-weight: 700;
+  color:$darkBlue;
+  // background-color: transparent;
+  letter-spacing: 4px;
+  background: -webkit-linear-gradient($brightBlue,$darkBlue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 5.2em;
+  padding-top:0.4em;
+  padding-left: 1.3em;
+  width:13em;
+  line-height: 1.3em;
+  position: relative;
+}
+
+#activity-body{
+  margin-top: -3em;
+  background-color: $blueDesign;
+  padding-top: 9em;
+}
+
+//Designing the bootstrap cards
+.bootstrap-cards{
+  width:100%;
+}
+
+.card{
+  width:21em;
+  height:25.5em;
+  box-shadow: 6px -6px 10px $darkBlue;
+  border-radius: 0.3em;
+  transition: 0.8s;
+  color:$darkBlue;
+}
+
+.card:hover{
+  color:#000;
+}
+
+.python-body{
+  background:linear-gradient(to bottom right,$card-highlight 50%,white 50%);
+  border:1px solid white;
+  background-position: bottom right;
+  background-size: 200% 200%;
+}
+
+.python-body:hover{
+  background-position: top left;
+  transition: 0.8s;
+  border: 1px solid $card-highlight;
+}
+
+.web-body{
+  background: linear-gradient(white 50%,$card-highlight 50%);
+  background-size: 200% 200%;
+  background-position: top;
+  border:1px solid white;
+}
+
+.web-body:hover{
+  background-position: bottom;
+  transition: 0.9s;
+  border: 1px solid $card-highlight;
+}
+
+.sql-body{
+  background-image: linear-gradient(to bottom left, $card-highlight 50%,white 50%);
+  background-size: 200% 200%;
+  background-position: bottom left;
+  border: 1px solid white;
+}
+
+.sql-body:hover{
+  background-position: top right;
+  transition: 0.9s;
+  border: 1px solid $card-highlight;
+}
+
+.card-img-top{
+  text-align: center;
+}
+
+.card-title{
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  font-size: 1.3em;
+  margin-top: 1em;
+  // text-shadow: 2px 1px 7px $darkBlue;
+}
+
+.card-text{
+  font-family: 'Raleway';
+  text-align: center;
+  font-weight: 500;
+  font-size:1.1em;
+  line-height: 1.9em;
+}
+
+.card-img{
+  margin-top: 2em;
+  margin-left: 7.1em;
+}
+
+#python-img{
+  height:105px;
+  width:100px;
+  @extend .card-img;
+}
+
+#web-img{
+  height:120px;
+  width:110px;
+  margin-top: 1.5em;
+  @extend .card-img;
+}
+
+#sql-img{
+  height:90px;
+  width:90px;
+  margin-top: 2.4em;
+  @extend .card-img;
+}
+
+.python{
+  padding-left: 9.2em;
+}
+
+.web{
+  padding-left: 5.2em;
+}
+
+#blue-design2{
+  margin-top: -3em;
+  transform: scale(-1.7,-0.8);
+}
+
+//Designing the section below the blue design section
+.below-bluedesign{
+  margin-top: 78em;
+}
+
+.other-and-besides{
+  text-align: center;
+  transform:translateY(70%);
+  opacity:0;
+}
+
+.other-and-besides.slide-up{
+  opacity:1;
+  transform: translateY(0);
+  transition:opacity 300ms ease-in,transform 400ms ease-in;
+}
+
+.other-head{
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 3px;
+  display: block;
+  background: -webkit-linear-gradient($brightBlue,$darkBlue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.other-stuff{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 2.7em;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  position:relative;
+  display: inline-block;
+  margin-top:0.5em;
+}
+
+.underline-otherstuff::before{
+  content:'';
+  background-color: $brightBlue;
+  position:absolute;
+  width:10%;
+  height: 3px;
+  top:1.6em;
+  left:9.6em;
+  transform: scale(1);
+}
+
+// Designing the box containing the C/C++ section and the bash section
+.steel-gray{
+  margin-top: 5.5em;
+  padding-top: 5em;
+  background: transparent;
+}
+
+.steel-gray.fade-inSteel{
+  background: #f4f4f4;
+  transition:background 300ms ease-in;
+}
+
+//Designing the C/C++ section
+.C{
+  padding:0 2em;
+}
+
+.C-img{
+  height:16em;
+  float:right;
+  margin-top: 2em;
+  margin-right:14em;
+  transform:translateX(60%);
+  opacity:0;
+}
+
+.C-img.slide-in{
+  transform:translateX(0);
+  opacity:1;
+  transition:transform 1s ease-in, opacity 900ms ease-in;
+}
+
+.C-content{
+  transform:translateX(-10%);
+  opacity:0;
+}
+
+.C-content.slide-in{
+  transform:translateX(0);
+  opacity:1;
+  transition: transform 800ms ease-in, opacity 700ms ease-in;
+}
+
+.C-header{
+  font-size: 3.3em;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  background: -webkit-linear-gradient($brightBlue,$darkBlue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 4.7em;
+}
+
+.C-para{
+  font-family: 'Open Sans';
+  font-size: 1.05em;
+  font-weight: 600;
+  padding-top: 1.5em;
+  margin-left: 15em;
+  width:35%;
+  line-height:34px;
+}
+
+// Designing the 'and' Section
+.bash{
+  margin-top: 4.5em;
+  padding-left: 5em;
+}
+
+.bash-content{
+  margin-left: 38em;
+  transform: translate(20%);
+  opacity:0;
+}
+
+.bash-content.slide-in{
+  transform:translateX(0);
+  opacity:1;
+  transition: transform 800ms ease-in, opacity 700ms ease-in;
+}
+
+.bash-header{
+  @extend .C-header;
+  text-align:left;
+  margin-left: -0.2em;
+}
+
+.bash-para{
+  font-family: 'Open Sans';
+  font-size: 1.05em;
+  font-weight: 600;
+  width:66%;
+  text-align: left;
+  line-height:36px;
+  padding-top: 1.5em;
+  margin-left: -0.5em;
+}
+
+.laptop{
+  float:left;
+  height:18.6em;
+  margin-left: 12em;
+  transform: scaleX(1.2);
+  transform: translate(-70%);
+  opacity:0;
+}
+
+.laptop.slide-in{
+  transform:translateX(0);
+  opacity:1;
+  transition:transform 1s ease-in, opacity 900ms ease-in;
+}
+
+// Designing the hiring band section
+.hire{
+  margin-top: 5em;
+  background-color: $brightBlue;
+  text-align: justify;
+  height:16em;
+  padding-left: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform:translateY(50%);
+  opacity:0;
+}
+
+.hire.slide-up{
+  transform:translateY(0);
+  opacity:1;
+  transition:transform 800ms ease-in, opacity 700ms ease-in;
+}
+
+.letsWork{
+  font-family: 'Montserrat';
+  font-weight: 400;
+  line-height: 2em;
+  color:white;
+  display: inline;
+}
+
+.btn-hire{
+  @extend .btn-head;
+  border: 0.4px solid $darkBlue ;
+  border-radius: 5%;
+  background-color: #184a85;
+  color: #fff;
+  font-weight: 500;
+  height:3.5em;
+  width:7.5em;
+  margin-left: 7em;
+  margin-top:1.6em;
+  box-shadow: -1px 1px 6px $darkBlue;
+}
+
+// End contact section design
+.end{
+  margin-top: 6em;
+  transform:translateY(50%);
+  opacity:0;
+}
+
+.end.slide-up{
+  transform:translateY(0);
+  opacity:1;
+  transition:transform 700ms ease-in, opacity 600ms ease-in;
+}
+
+#end-head{
+  font-family: 'Open sans';
+  background: -webkit-linear-gradient($brightBlue,$darkBlue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.3em;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1em;
+  transform: scaleY(1.1);
+}
+
+.end-para2{
+  text-align:center;
+  font-family: 'Merriweather';
+  font-size: 1.05em;
+  font-weight: 600;
+  line-height: 1.7em;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.end-para{
+  @extend .end-para2;
+  background: -webkit-linear-gradient($brightBlue,$darkBlue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logos{
+  text-align: center;
+  margin-top: 3em;
+}
+#linkedin{
+  height:4.2em;
+}
+
+#gmail{
+  height:4em;
+  margin-left: 3em;
+}
+
+#github{
+  height:4em;
+  margin-left: 3em;
+}
+
+// Footer design
+footer{
+  text-align: center;
+  background:linear-gradient($darkBlue,$brightBlue);
+  margin-top:-3em;
+  color:#fff;
+}
+
+#email{
+  font-family: 'Merriweather';
+  font-size: 0.7em;
+  padding-top:1.8em;
+}
+
+#git-name{
+  padding-top: 0;
+  font-size: 0.8em;
+  font-family: 'Merriweather';
+  margin:0;
+  padding-bottom: 0.6em;
+}

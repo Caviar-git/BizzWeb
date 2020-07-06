@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel='stylesheet' href='spam.css'>
+<style>
+
+
+
+</style>
+</head>
+<body>
+  <nav class=nav-scroll>
+    <ul class=nav-content>
+      <li class=nav-item>
+        <a class=nav-link href='#'>Home</a>
+      </li>
+      <li class=nav-item>
+        <a class=nav-link href='#'>Accomplishments</a>
+      </li>
+      <li class=nav-item>
+        <a class=nav-link href='#'>Diaries</a>
+      </li>
+      <li class=nav-item>
+        <a class=nav-link href='#'>Contact</a>
+      </li>
+      <li class=nav-item>
+        <a class=nav-link href='#'>Misc</a>
+      </li>
+    </ul>
+  </nav>
+<!-- <div class=head>
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+<p>Click on the "Dropdown" link to see the dropdown menu.</p>
+</div> -->
+
+<div class=styling>
+</div>
+
+<section class=besides>
+  <h1 class=besides-header>Besides . .</h1>
+  <img src='images\home-right2.png' class=besides-img>
+  <p class=besides-para>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+</section>
+
+<section class=and>
+  <img src='images\tech-guy.png' class=tech-guy-img>
+  <div class=and-content>
+    <h1 class='and-header'>Also,</h1>
+    <p class='and-para'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+</div>
+</section>
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+Colors to use:
+dark blue - #002d5b
+lightred - #ec5b53
+brick red - #ff3d1c
+off white (red spectrum) - #fff4f4
+off white (blue spectrum) - #dbe4e4
+hot gray - #333436
+sky blue - #77b6fe
+bright blue - #0176f6
+
+Pages Total - 4.
+Page names: Home, Accomplishments, projects/work xperience, Diaries
+
+
