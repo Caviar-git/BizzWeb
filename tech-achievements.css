@@ -55,17 +55,16 @@ a:hover {
   padding-top: 20px; }
 
 .carousel-item {
-  text-align: center;
-  background-color: #1eb3ae; }
+  text-align: center; }
 
 #slideshow {
+  background-color: #1eb3ae;
   padding-top: 2%;
   padding-bottom: 3%;
   text-align: center; }
 
 #mchgn {
-  height: 100px;
-  margin-top: 20px; }
+  height: 100px; }
 
 #google {
   height: 55px;
@@ -89,16 +88,6 @@ a:hover {
   .navbar-brand {
     font-size: 22px; }
 
-  h5 {
-    font-size: 17px;
-    font-family: 'Merriweather';
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: white; }
-
-  #cartoon-phone {
-    display: none; }
-
   #phone-title {
     display: none; }
 
@@ -119,8 +108,11 @@ a:hover {
     line-height: 65px;
     text-align: right; }
 
-  #head-para-phone {
-    display: none; }
+  h5 {
+    font-size: 17px;
+    font-family: 'Merriweather';
+    margin-top: 30px;
+    color: white; }
 
   #body1 {
     text-align: center;
@@ -167,7 +159,7 @@ a:hover {
     color: white;
     font-size: 45px;
     position: relative;
-    top: 20px; }
+    top: 10px; }
 
   .general-head {
     margin-top: 30px;
@@ -229,9 +221,6 @@ a:hover {
     margin-bottom: -10px; } }
 /*---------Mobile Responsive----------*/
 @media screen and (max-width: 499px) {
-  body {
-    background-color: #faf8ff; }
-
   .navbar {
     height: 80px;
     background-color: #1eb3ae; }
@@ -262,39 +251,29 @@ a:hover {
     font-size: 13px;
     font-family: "Merriweather";
     margin-top: 30px;
-    margin-bottom: 20px;
     color: white; }
 
   #head {
-    background-color: #9bc1cf;
+    background-image: url("CSS - My Site Images/universities.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(17, 18, 17, 0.1);
+    background-blend-mode: hue;
     height: 500px; }
-
-  #phone-head {
-    text-align: center; }
 
   #phone-title {
     text-align: center;
     color: #126b58;
-    font-family: 'Rubik';
-    font-size: 44px;
-    padding-top: 55px; }
-
-  #head-para-phone {
-    font-family: "Rubik";
-    font-size: 28px;
-    font-weight: bold;
-    padding: 10px 20px 20px;
-    line-height: 40px;
-    color: white; }
-
-  #cartoon-phone {
-    height: 300px; }
+    font-family: "Merriweather", sans-serif;
+    font-size: 48px;
+    margin-top: 0px;
+    padding-top: 150px; }
 
   #body1 {
     text-align: center;
-    margin-top: -200px;
-    position: relative;
-    z-index: 1; }
+    position: static;
+    margin-top: -220px; }
 
   #lic {
     font-family: 'Roboto';
@@ -324,28 +303,42 @@ a:hover {
     border-top: dotted;
     border-top-width: 6px; }
 
-  .carousel-item {
-    background-color: #1eb3ae; }
+  .carousel-slide {
+    data-interval: 2800; }
 
   #mchgn {
     height: 75px; }
 
   #google {
-    height: 40px;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    padding-left: 10px; }
+    height: 30px;
+    margin-right: 20px; }
 
   #intern {
-    margin-top: 20px;
-    height: 50px;
+    height: 55px;
     margin-right: 10px; }
 
+  /*  #general-para{
+      display: inline-block;
+      font-family: $wrap-text;
+      color:white;
+      font-size:34px;
+      position:relative;
+      top:10px;
+    }
+  
+    #general-head{
+      margin-top: 30px;
+      font-family: $wrap-text;
+      font-weight: bold;
+      font-size: 22px;
+      color:white;
+    }*/
   .general-para {
     display: inline-block;
     font-family: "Merriweather";
     color: white;
     font-size: 34px;
+    margin-top: -7px;
     margin-bottom: 24px; }
 
   .general-head {
@@ -398,8 +391,9 @@ a:hover {
     margin-top: 60px;
     background-color: #1eb3ae;
     text-align: center;
-    height: 80px;
-    padding-top: 20px; }
+    height: 110px;
+    padding-top: 30px;
+    padding-bottom: 0px; }
 
   #email {
     text-decoration: underline;
@@ -410,7 +404,7 @@ a:hover {
   #copyright {
     font-family: "Merriweather", serif;
     font-size: 13px;
-    margin-bottom: 0px;
-    color: white; } }
+    color: white;
+    margin-bottom: -10px; } }
 
 /*# sourceMappingURL=tech-achievements.css.map */

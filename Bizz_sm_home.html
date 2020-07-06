@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html>
+
+<!-- Redirection Script -->
+  <script type="text/javascript">
+    function redirect() {
+      if (screen.width > 500) {
+        window.location = "D:/MOOC_Material/Udemy/FullStackDev/BizzWeb2/Bizz.html";
+      }
+    }
+  </script>
   <head>
     <title>BizzWeb Home</title>
     <meta charset='utf-8'>
@@ -11,10 +20,16 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- <script type=text/javascript>
+    function redirect() {
+      if (screen.width > 500) {
+        window.location = "D:/MOOC_Material/Udemy/FullStackDev/BizzWeb2/Bizz.html";
+      }
+    }
+    </script> -->
   </head>
 
-  <body>
-
+  <body onload=redirect()>
     <div id='head'>
 
       <nav class="navbar navbar-expand-lg navbar-trans">
@@ -82,7 +97,7 @@
 
     <div id='main-body2'>
       <a href='experience.html'><img id='developer' src='CSS - My Site Images\dev_blue.png'></a>
-      <p id='developer-text'><span style='color:#25a8a4; font-size: 18px; font-style:italic;text-decoration:underline;margin-left:0px;'>Development and Programming Experience</span><br><br>I work mainly with the <span style='color:#25a8a4; font-size: 15px; font-style:italic;'>Python and C</span> programming languages for my programming and automation works/projects. For my development work, I mainly use <span style='color:#25a8a4; font-size: 15px; font-style:italic;'>HTML, CSS, Sass, Bootstrap and Javascript</span> along with some other designer tools. I have intermediate experience in the programming languages mentioned and beginner experience in web development. I'm actively looking for internships/project works to hone my skills further in the mentioned fields. Want specific details about my experience? <span style='color:#25a8a4; font-size: 15px; font-style:italic;'>Click on the blue icon.</span></p>
+      <p id='developer-text'><span style='color:#25a8a4; font-size: 18px; font-style:italic;text-decoration:underline;margin-left:0px;'>Development and Programming Experience</span><br><br>I work mainly with the <span style='color:#25a8a4; font-size: 15px; font-style:italic;'>python and C</span> programming languages for my programming and automation works/projects. For my development work, I mainly use <span style='color:#25a8a4; font-size: 15px; font-style:italic;'>html, css, sass, bootstrap and javascript</span> along with some other designer tools. I have intermediate experience in the programming languages mentioned and beginner experience in web development. I'm actively looking for internships/project works to hone my skills further in the mentioned fields. Want specific details about my experience? <span style='color:#25a8a4; font-size: 15px; font-style:italic;'>Click on the blue icon.</span></p>
       <img id='oppa_red' src='CSS - My Site Images\Oppa_doll_smug.png'>
 
       <a href='tech-achievements.html'><img id='tech' src='CSS - My Site Images\pc_logo.png'></a>
@@ -117,6 +132,5 @@
       <p id ='email'>sarkar.biswadeep07@gmail.com</p>
       <p id='copyright'>By Biswadeep Sarkar, 2020.</p>
     </div>
-
   </body>
 </html>
