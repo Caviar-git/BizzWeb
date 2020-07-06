@@ -21,7 +21,7 @@ nav {
   top: 0;
   position: var(--pos);
   padding-top: 0.5em;
-  transition: background 300ms ease-in; }
+  transition: background 299ms ease-in; }
   nav .nav-content .nav-item .nav-link {
     color: var(--text);
     font-size: 0.95em;
@@ -594,4 +594,4 @@ footer {
   margin: 0;
   padding-bottom: 0.6em; }
 
-/*# sourceMappingURL=Bizz.css.map */
+/*# sourceMappingURL=Bizz_lg_home.css.map */

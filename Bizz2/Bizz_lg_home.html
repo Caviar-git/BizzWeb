@@ -5,9 +5,12 @@
   <script type="text/javascript">
     function redirect() {
       if (screen.width <= 500) {
-        window.location = "D:/MOOC_Material/Udemy/FullStackDev/BizzWeb/BizzWeb.html";
+        window.location = "D:/MOOC_Material/Udemy/FullStackDev/BizzWeb/Bizz_sm_home.html";
       }
-    }
+    };
+    window.addEventListener('load',function(){
+      redirect();
+    });
   </script>
 
   <head>
@@ -30,7 +33,7 @@
     <link rel=stylesheet href='Bizz.css'>
   </head>
 
-  <body  onload=redirect()>
+  <body>
     <nav class=''>
       <ul class='nav-content'>
         <li class='nav-item navbrand'>B.</li>
